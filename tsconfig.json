@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["es5", "es2015", "dom"],
+    "jsx": "react"
+  },
+  "exclude": [
+    ".idea",
+    "dist",
+    "node_modules",
+    "typings/globals",
+    "typings/modules"
+  ]
+}
