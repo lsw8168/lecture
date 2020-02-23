@@ -1,6 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { hot } from 'react-hot-loader/root';
 
-import GuGudan from './GuGudan';
+import WordRelay from './WordRelay';
 
-ReactDOM.render(<GuGudan />, document.querySelector('#root'));
+const Hot = hot(WordRelay);
+
+ReactDOM.render(<Hot />, document.querySelector('#root'));
